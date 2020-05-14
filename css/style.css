@@ -1,0 +1,45 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 110vh;
+}
+#title,
+#description {
+  text-align: center;
+  color: white;
+}
+#survey-form {
+  width: 500px;
+  bottom: 0;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#text,
+#submit {
+  width: 100%;
+}
+#text {
+  height: 140px;
+}
+#submit {
+  border: 0;
+  padding: 10px;
+  background-color: lightgreen;
+}
